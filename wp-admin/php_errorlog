@@ -1,0 +1,160 @@
+[07-Apr-2020 14:51:22 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/visioninotturne.com/public_html/wp-includes/wp-db.php on line 2024
+[07-Apr-2020 14:51:22 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/visioninotturne.com/public_html/wp-includes/wp-db.php on line 2024
+[27-Apr-2020 08:44:15 UTC] WordPress errore sul database Table 'dbnge53zdy3ptz.hgm_yarpp_related_cache' doesn't exist per la query truncate table `hgm_yarpp_related_cache` fatta da require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, yarpp_init, YARPP->__construct, YARPP->enforce, YARPP->activate, YARPP->enable_fulltext, YARPP->disable_fulltext, YARPP->set_option, YARPP_Cache_Tables->flush
+[27-Apr-2020 08:44:15 UTC] WordPress errore sul database Table 'dbnge53zdy3ptz.hgm_yarpp_related_cache' doesn't exist per la query truncate table `hgm_yarpp_related_cache` fatta da require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, yarpp_init, YARPP->__construct, YARPP->enforce, YARPP->activate, YARPP->enable_fulltext, YARPP->disable_fulltext, YARPP->set_option, YARPP_Cache_Tables->flush
+[30-Apr-2020 15:39:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/visioninotturne.com/public_html/wp-content/plugins/bloom/dashboard/dashboard.php:1634) in /home/customer/www/visioninotturne.com/public_html/wp-admin/includes/misc.php on line 1259
+[06-May-2020 10:59:12 UTC]  .../api/Service.php:472  ET_Core_API_Service::make_remote_request():
+ET_Core_HTTPInterface ERROR :: Remote request failed...
+
+Details: ET_Core_HTTPInterface Object
+(
+    [REQUEST] => ET_Core_HTTPRequest Object
+        (
+            [ARGS] => Array
+                (
+                    [blocking] => 1
+                    [body] => {"email_address":"giangori@gmail.com","merge_fields":{"FNAME":"Gianluca Gori","LNAME":""},"ip_signup":"151.61.45.167","status":"pending"}
+                    [cookies] => Array
+                        (
+                        )
+
+                    [headers] => Array
+                        (
+                            [Authorization] => Basic YnVpbGRlcjphcGlfa2V5
+                            [Accept] => application/json
+                            [Content-Type] => application/json
+                        )
+
+                    [method] => POST
+                    [sslverify] => 1
+                    [user-agent] => WordPress/5.4.1; Divi Builder/4.4.4; https://visioninotturne.com
+                    [timeout] => 30
+                )
+
+            [URL] => /lists/90e34fe85f/members
+            [METHOD] => POST
+            [BODY] => {"email_address":"giangori@gmail.com","merge_fields":{"FNAME":"Gianluca Gori","LNAME":""},"ip_signup":"151.61.45.167","status":"pending"}
+            [IS_AUTH] => 
+            [IS_JSON_BODY] => 1
+            [OWNER] => builder
+        )
+
+    [RESPONSE] => ET_Core_HTTPResponse Object
+        (
+            [STATUS_CODE] => http_request_failed
+            [STATUS_MESSAGE] => Non è stato fornito un URL valido.
+            [ERROR] => 1
+            [ERROR_MESSAGE] => Non è stato fornito un URL valido.
+            [DATA] => 
+        )
+
+)
+
+[06-May-2020 12:10:04 UTC]  .../api/Service.php:472  ET_Core_API_Service::make_remote_request():
+ET_Core_HTTPInterface ERROR :: Remote request failed...
+
+Details: ET_Core_HTTPInterface Object
+(
+    [REQUEST] => ET_Core_HTTPRequest Object
+        (
+            [ARGS] => Array
+                (
+                    [blocking] => 1
+                    [body] => {"email_address":"giangori@gmail.com","merge_fields":{"FNAME":"GIANLUCA GORI","LNAME":""},"ip_signup":"151.61.45.167","status":"pending"}
+                    [cookies] => Array
+                        (
+                        )
+
+                    [headers] => Array
+                        (
+                            [Authorization] => Basic YnVpbGRlcjphcGlfa2V5
+                            [Accept] => application/json
+                            [Content-Type] => application/json
+                        )
+
+                    [method] => POST
+                    [sslverify] => 1
+                    [user-agent] => WordPress/5.4.1; Divi Builder/4.4.4; https://visioninotturne.com
+                    [timeout] => 30
+                )
+
+            [URL] => /lists/90e34fe85f/members
+            [METHOD] => POST
+            [BODY] => {"email_address":"giangori@gmail.com","merge_fields":{"FNAME":"GIANLUCA GORI","LNAME":""},"ip_signup":"151.61.45.167","status":"pending"}
+            [IS_AUTH] => 
+            [IS_JSON_BODY] => 1
+            [OWNER] => builder
+        )
+
+    [RESPONSE] => ET_Core_HTTPResponse Object
+        (
+            [STATUS_CODE] => http_request_failed
+            [STATUS_MESSAGE] => Non è stato fornito un URL valido.
+            [ERROR] => 1
+            [ERROR_MESSAGE] => Non è stato fornito un URL valido.
+            [DATA] => 
+        )
+
+)
+
+[10-May-2020 19:46:20 UTC]  .../api/Service.php:472  ET_Core_API_Service::make_remote_request():
+ET_Core_HTTPInterface ERROR :: Remote request failed...
+
+Details: ET_Core_HTTPInterface Object
+(
+    [REQUEST] => ET_Core_HTTPRequest Object
+        (
+            [ARGS] => Array
+                (
+                    [blocking] => 1
+                    [body] => {"email_address":"giangori@gmail.com","merge_fields":{"FNAME":"GIANLUCA GORI","LNAME":""},"ip_signup":"151.61.45.237","status":"pending"}
+                    [cookies] => Array
+                        (
+                        )
+
+                    [headers] => Array
+                        (
+                            [Authorization] => Basic YnVpbGRlcjphcGlfa2V5
+                            [Accept] => application/json
+                            [Content-Type] => application/json
+                        )
+
+                    [method] => POST
+                    [sslverify] => 1
+                    [user-agent] => WordPress/5.4.1; Divi Builder/4.4.4; https://visioninotturne.com
+                    [timeout] => 30
+                )
+
+            [URL] => /lists/90e34fe85f/members
+            [METHOD] => POST
+            [BODY] => {"email_address":"giangori@gmail.com","merge_fields":{"FNAME":"GIANLUCA GORI","LNAME":""},"ip_signup":"151.61.45.237","status":"pending"}
+            [IS_AUTH] => 
+            [IS_JSON_BODY] => 1
+            [OWNER] => builder
+        )
+
+    [RESPONSE] => ET_Core_HTTPResponse Object
+        (
+            [STATUS_CODE] => http_request_failed
+            [STATUS_MESSAGE] => Non è stato fornito un URL valido.
+            [ERROR] => 1
+            [ERROR_MESSAGE] => Non è stato fornito un URL valido.
+            [DATA] => 
+        )
+
+)
+
+[15-May-2020 13:06:50 UTC] PHP Warning:  Si è verificato un errore inaspettato. C'è qualche cosa di sbagliato con WordPress.org o con la configurazione di questo server. Se continui ad avere problemi, chiedi aiuto sul <a href="https://it.wordpress.org/support/forums/">forum di supporto</a>. (WordPress non può stabilire una connessione sicura a WordPress.org. Contatta l’amministratore del server.) in /home/customer/www/visioninotturne.com/public_html/wp-admin/includes/translation-install.php on line 68
+[18-May-2020 22:04:31 UTC] PHP Warning:  copy(/home/customer/www/visioninotturne.com/public_html/wp-content/uploads/photo-gallery/imported_from_media_libray/thumb/93507547_1601881909966647_8876204414365335552_n.jpg): failed to open stream: No such file or directory in /home/customer/www/visioninotturne.com/public_html/wp-content/plugins/photo-gallery/filemanager/UploadHandler.php on line 679
+[24-May-2020 20:29:58 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Error as array in /home/customer/www/visioninotturne.com/public_html/wp-content/themes/Divi/includes/builder/core.php:1384
+Stack trace:
+#0 /home/customer/www/visioninotturne.com/public_html/wp-content/themes/Divi/includes/builder/core.php(1356): et_pb_create_layout('newsletter', '[et_pb_row colu...', Array, Array, 'riga')
+#1 /home/customer/www/visioninotturne.com/public_html/wp-content/themes/Divi/includes/builder/functions.php(2027): et_pb_submit_layout(Array)
+#2 /home/customer/www/visioninotturne.com/public_html/wp-includes/class-wp-hook.php(287): et_fb_save_layout('')
+#3 /home/customer/www/visioninotturne.com/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/customer/www/visioninotturne.com/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/customer/www/visioninotturne.com/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_et_fb_s...')
+#6 {main}
+  thrown in /home/customer/www/visioninotturne.com/public_html/wp-content/themes/Divi/includes/builder/core.php on line 1384
+[04-Jun-2020 08:50:10 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home/customer/www/visioninotturne.com/public_html/wp-includes/wp-db.php on line 2024
+[04-Jun-2020 08:50:10 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home/customer/www/visioninotturne.com/public_html/wp-includes/wp-db.php on line 2024

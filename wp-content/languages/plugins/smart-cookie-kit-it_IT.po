@@ -1,0 +1,224 @@
+# Translation of Plugins - Smart Cookie Kit - Development (trunk) in Italian
+# This file is distributed under the same license as the Plugins - Smart Cookie Kit - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-17 17:33:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Smart Cookie Kit - Development (trunk)\n"
+
+#: plugin_admin.php:181
+msgid "In debug mode the plugin does not use optimized resources and sends messages to the javascript console. Use only if necessary!"
+msgstr "In modalità di debug il plugin utilizza risorse NON ottimizzate e invia nella console javascript dei messaggi sul suo funzionamento. Abilitare solo se necessario!"
+
+#: plugin_admin.php:169
+msgid "Enable the implicit acceptance of the policy (unlocking third parts services) for the user that scrolls the page, so: <br />- With this option checked services will be unlocked even when user will scroll the page to view other contents."
+msgstr "Abilita l'accettazione implicita della policy (con conseguente sblocco dei servizi di terze parti) per l'utente che scorre nella pagina, quindi: <br />- Con questa opzione selezionata, i servizi di terze parti saranno sbloccati anche quando l'utente effettuerà lo scroll della pagina per visualizzare altri contenuti."
+
+#: plugin_admin.php:166
+msgid "The plugin uses a small script to unlock third parties services and cookies.<br />- With this option unchecked, the script will be added in the footer of the page to not degrade the page performance.<br />- With this option checked, instead, the script will be added in the header of the page.<br /><br />Check this option only in case of incompatibility with the used theme."
+msgstr "Per sbloccare i servizi di terze parti e i relativi cookie, il plugin si serve di un piccolo script aggiunto alle pagine del sito.<br />- Con questa opzione NON selezionata lo script sarà aggiunto alla fine della pagina, così da influenzare meno possibile la velocità di caricamento della stessa. <br />- Con questa opzione selezionata, invece, lo script sarà aggiunto all’inizio della pagina.<br /><br />Si raccomanda di selezionare questa opzione solo in caso di incompatibilità con il tema utilizzato."
+
+#: plugin_admin.php:163
+msgid "The content of the \"style\" attribute to customize the accept button."
+msgstr "Indica il contenuto dell'attributo “style” per personalizzare graficamente il pulsante per accettare la policy."
+
+#: plugin_admin.php:160
+msgid "The content of the “style” attribute tu customize the area that contains the buttons for accepting the policy."
+msgstr "Indica il contenuto dell'attributo “style” per personalizzare graficamente l'area che contiene i pulsanti e i link per accettare la policy."
+
+#: plugin_admin.php:157
+msgid "The content of the “style” attribute to customize the cookie policy link."
+msgstr "Indica il contenuto dell’attributo “style” per personalizzare graficamente il link alla cookie policy."
+
+#: plugin_admin.php:154
+msgid "The content of the \"style\" attribute to customize the banner text."
+msgstr "Indica il contenuto dell'attributo “style” per personalizzare graficamente il testo del banner."
+
+#: plugin_admin.php:151
+msgid "The content of the \"style\" attribute to customize the area containing text and buttons."
+msgstr "Indica il contenuto dell'attributo “style” per personalizzare graficamente l'area che contiene testo e pulsanti."
+
+#: plugin_admin.php:148
+msgid "The content of the \"style\" attribute to customize the “blocker” back-layer."
+msgstr "Indica il contenuto dell’attributo “style” per personalizzare graficamente il livello che blocca i contenuti."
+
+#: plugin_admin.php:142
+msgid "The number of days in which the user's consent will remain valid."
+msgstr "Indica il numero di giorni in cui il consenso dell'utente rimarrà valido."
+
+#: plugin_admin.php:139
+msgid "Customize the text shown into the accept button."
+msgstr "Personalizza il testo mostrato nel pulsante per accettare i cookie."
+
+#: plugin_admin.php:136
+msgid "Customize the text to use for the cookie policy link."
+msgstr "Personalizza il testo da usare per il link alla cookie policy."
+
+#: plugin_admin.php:133
+msgid "The url of the custom page where the cookie policy is published."
+msgstr "L'url della pagina personalizzata in cui è pubblicata la cookie policy."
+
+#: plugin_admin.php:130
+msgid "The banner will contain a link to this page (in this page, then, the banner will not appear!)."
+msgstr "Nel banner sarà presente il link a questa pagina (e in questa pagina non comparirà il banner!)."
+
+#: plugin_admin.php:113
+msgid "None"
+msgstr "Nessuna"
+
+#: plugin_admin.php:112
+msgid "Custom"
+msgstr "Personalizzata"
+
+#: plugin_admin.php:108 plugin_admin.php:136
+msgid "In this text box you can use the following tags:<br /><br/>[br] to send the text to wrap<br />[b]text[/b] to get \"text\" bold<br />[i]text [/i] to get \"text\" in italics<br/ >[u]text[/u] to get \"text\" stressed"
+msgstr "In questa casella di testo puoi utilizzare i seguenti tag:<br /><br/>[br] per mandare il testo a capo<br />[b]testo[/b] per avere \"testo\" in grassetto<br />[i]testo[/i] per avere \"testo\" in corsivo<br/ >[u]testo[/u] per avere \"testo\" sottolineato"
+
+#: plugin_admin.php:108
+msgid "Customize banner text"
+msgstr "Personalizza il testo mostrato nel banner."
+
+#: plugin_admin.php:90
+msgid "<b>Smart Cookie Kit</b> helps to block third-party services that install cookies, however, it may not be able to block all services independently.<br /><br />For more details, visit this guide (in Italian): %s."
+msgstr "<b>Smart Cookie Kit</b> aiuta a bloccare servizi di terze parti che installano cookie, tuttavia potrebbe non essere in grado di bloccare autonomamente tutti i servizi.<br /><br />Per maggiori dettagli sulla Cookie Law e per consigli pratici, guarda questa guida: %s."
+
+#: plugin_admin.php:53
+msgid "Debug mode"
+msgstr "Modalità di debug"
+
+#: plugin_admin.php:52
+msgid "Save log to server"
+msgstr "Salva log sul server"
+
+#: plugin_admin.php:49
+msgid "Implicit consent on scroll"
+msgstr "Consenso implicito su scroll pagina"
+
+#: plugin_admin.php:47
+msgid "CSS for accept button"
+msgstr "CSS per pulsante consenso"
+
+#: plugin_admin.php:46
+msgid "CSS for buttons area"
+msgstr "CSS per area pulsanti"
+
+#: plugin_admin.php:45
+msgid "CSS for policy link"
+msgstr "CSS per link alla policy"
+
+#: plugin_admin.php:44
+msgid "CSS for text"
+msgstr "CSS per testo"
+
+#: plugin_admin.php:43
+msgid "CSS for banner content"
+msgstr "CSS per contenuto banner"
+
+#: plugin_admin.php:42
+msgid "CSS for back-layer"
+msgstr "CSS per il back-layer"
+
+#: plugin_admin.php:41
+msgid "Add back-layer"
+msgstr "Aggiungi back-layer"
+
+#: plugin_admin.php:40
+msgid "Cookie life"
+msgstr "Validità del cookie"
+
+#: plugin_admin.php:39
+msgid "Accept button text"
+msgstr "Testo del pulsante per acconsentire"
+
+#: plugin_admin.php:38
+msgid "Policy link text"
+msgstr "Testo del link alla policy"
+
+#: plugin_admin.php:37
+msgid "External policy page"
+msgstr "Pagina esterna con policy"
+
+#: plugin_admin.php:36
+msgid "Policy page"
+msgstr "Pagina con policy"
+
+#: plugin_admin.php:35
+msgid "Banner text"
+msgstr "Testo del banner"
+
+#: plugin_admin.php:33
+msgid "Banner customizing"
+msgstr "Personalizzazione del banner"
+
+#: plugin.php:34
+msgid "Accept"
+msgstr "Accetto"
+
+#: plugin.php:30
+msgid "This website or third-party tools used in it make use of cookies (technical and profiling) for:[br][br]- the proper functioning of the site[br]- generate navigation statistics[br]- show advertising in [b]noninvasively[/b] way[br][br]By continuing to browse the site you agree to our use of cookies."
+msgstr "Questo sito o gli strumenti di terzi utilizzati al suo interno si avvalgono di cookie (tecnici e di profilazione) per:[br][br]- il corretto funzionamento del sito[br]- generare delle statistiche di navigazione[br]- mostrarti pubblicità in modo [b]non invasivo[/b][br][br]Proseguendo la navigazione su questo sito acconsenti all'uso dei cookie."
+
+#: plugin.php:33
+msgid "To learn more or opt out, click here to read the cookie policy."
+msgstr "Se vuoi saperne di più o negare il consenso, clicca qui e consulta la cookie policy."
+
+#: plugin_admin.php:175
+msgid "Example. If you write \"#click_without_consent,.permitted_click\" in this field, the user will be able to click in your page on an element with \"click_without_consent\" id, elements that contain \"permitted_click\" in their class attribute, and all their children elements without accepting the policy: the plugin will continue to unlock cookies if a click will happen on others element.<br /><br />This fields is useful when some sliders emulate a click on the \"next\" button to change the shown slide."
+msgstr "Esempio. Se inserisci \"#click_without_consent,.permitted_click\" in questo campo, l'utente potrà fare clic nella pagina sull'elemento con id \"click_without_consent\", sugli elementi che contengono \"permitted_click\" nel loro attributo class, e su tutti i loro elementi figlio senza scatenare il consenso alla policy: il plugin continuerà a sbloccare i cookie se invece avverrà un clic su altri elementi della pagina.<br /><br />Questa opzione torna utile, ad esempio, quando alcuni slider simulano il clic sul pulsante \"avanti\" per effettuare il cambio slide."
+
+#: plugin_admin.php:145
+msgid "Adds a layer on the page: users have to accept the cookie policy to get the page content “clickable”."
+msgstr "Aggiungi un layer sulla pagina: gli utenti devono prima accettare la cookie policy per sbloccare e rendere cliccabile il contenuto della pagina."
+
+#: plugin_admin.php:94
+msgid "In this section you can modify graphics options for the banner."
+msgstr "In questa sezione puoi modificare le opzioni grafiche per il banner di accettazione."
+
+#: plugin_admin.php:48
+msgid "Script in header"
+msgstr "Script nell'header"
+
+#: plugin_admin.php:178
+msgid "Write a log file in the server to list: date and time of the user acceptance of the policy, the mode (by scroll, by banner, ...) and his IP address. The log contains also a temporal reference (timestamp) to match the cookie saved in the browser user and the log line of the server. Logs are grouped by year and month."
+msgstr "Scrive un file log sul server per elencare: data e ora di accettazione da parte di un utente della policy, la modalità (tramite scroll, dal banner, ...) e il suo indirizzo IP. Il log contiene anche un riferimento temporale (timestamp) per poter collegare il cookie memorizzato sul browser dell'utente al record del log sul server. I log sono raggruppati per anno e mese."
+
+#: plugin_admin.php:175
+msgid "List container or specific elements (with class or id selectors), separated with commas, that users can click without activate the implicit consent."
+msgstr "Elenca una serie di contenitori o elementi specifici (con selettori di classe o id), separati da virgole, su cui gli utenti possono fare clic senza attivare il consenso implicito."
+
+#: plugin_admin.php:172
+msgid "Enable the implicit acceptance of the policy (unlocking third parts services) for the user that clicks on page elements, so: <br />- With this option checked, services will be unlocked even when user will click on links, buttons, images, ... ."
+msgstr "Abilita l'accettazione implicita della policy (sbloccando servizi di terze parti) per l'utente che fa clic sugli elementi della pagina. Se attivi questa opzione, i servizi verranno sbloccati anche quando l'utente farà clic su link, pulsanti, immagini ecc. (Sconsigliato per l'Italia)"
+
+#: plugin_admin.php:51
+msgid "Permit clicks in these containers"
+msgstr "Consenti i clic in questi contenitori."
+
+#: plugin_admin.php:50
+msgid "Implicit consent with click on content"
+msgstr "Consenso implicito attraverso il clic sul contenuto."
+
+#. Description of the plugin/theme
+msgid "Blocco preventivo dei cookie e accettazione della cookie policy, compatibile con qualsiasi sistema di cache!"
+msgstr "Blocco preventivo dei cookie e accettazione della cookie policy, compatibile con qualsiasi sistema di cache!"
+
+#. Author of the plugin/theme
+msgid "Nicola Modugno"
+msgstr "Nicola Modugno"
+
+#. Plugin URI of the plugin/theme
+msgid "http://smartcookiekit.it/"
+msgstr "http://smartcookiekit.it/"
+
+#. Plugin Name of the plugin/theme
+msgid "Smart Cookie Kit"
+msgstr "Smart Cookie Kit"
+
+#. Author URI of the plugin/theme
+msgid "https://it.linkedin.com/in/modugnonicola"
+msgstr "https://it.linkedin.com/in/modugnonicola"

@@ -1,0 +1,29 @@
+<wpml-config>
+    <shortcodes>
+        <shortcode>
+            <tag>et_pb_dpblog_portfolio</tag>
+            <attributes>
+                <attribute>author_prefix_text</attribute>
+                <attribute>meta_date</attribute>
+                <attribute>show_more_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_dpfilterable_blog</tag>
+            <attributes>
+                <attribute>author_prefix_text</attribute>
+                <attribute>meta_date</attribute>
+                <attribute>show_more_text</attribute>
+                <attribute>all_text</attribute>
+            </attributes>
+        </shortcode>
+        <shortcode>
+            <tag>et_pb_dpfullwidth_blog</tag>
+            <attributes>
+                <attribute>author_prefix_text</attribute>
+                <attribute>meta_date</attribute>
+                <attribute>show_more_text</attribute>
+            </attributes>
+        </shortcode>
+    </shortcodes>
+</wpml-config>

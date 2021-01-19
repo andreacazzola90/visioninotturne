@@ -1,0 +1,4 @@
+[21-Apr-2020 17:29:24 CST6CDT] PHP Fatal error:  Uncaught Error: Class 'getid3_handler' not found in /home/customer/www/visioninotturne.com/public_html/wp-includes/ID3/module.audio.ac3.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/visioninotturne.com/public_html/wp-includes/ID3/module.audio.ac3.php on line 18
